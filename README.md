@@ -18,7 +18,11 @@ realizar consultas con IA y exportar conversaciones en JSON/XML.
 - `tests/` - Pruebas
 - `assets/` - Archivos de prueba
 
+## Docente
+- Dr. Edgar Cossio 
+
 ## Equipo
-- Integrante 1
-- Integrante 2
-- Integrante 3
+- Guevara Ayala Jorge Edwin 
+- Leal Sánchez Laura Lucía
+- Preciado García Marco Antonio
+- Ruiz Gudiño Carolina
