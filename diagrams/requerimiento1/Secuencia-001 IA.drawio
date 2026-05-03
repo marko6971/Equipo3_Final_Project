@@ -1,0 +1,59 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
+    <mxGraphModel grid="1" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5wXfZpld3S_inRG9jpBt-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};shadow=1;rounded=1;" value="Usuario" vertex="1">
+          <mxGeometry height="430" width="100" x="-10" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="5wXfZpld3S_inRG9jpBt-3" parent="5wXfZpld3S_inRG9jpBt-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};shadow=1;" value="" vertex="1">
+          <mxGeometry height="200" width="10" x="45" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5wXfZpld3S_inRG9jpBt-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};shadow=1;rounded=1;" value="Sistema" vertex="1">
+          <mxGeometry height="430" width="100" x="450" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="5wXfZpld3S_inRG9jpBt-4" parent="5wXfZpld3S_inRG9jpBt-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};shadow=1;" value="" vertex="1">
+          <mxGeometry height="290" width="10" x="45" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5wXfZpld3S_inRG9jpBt-14" edge="1" parent="5wXfZpld3S_inRG9jpBt-2" source="5wXfZpld3S_inRG9jpBt-4" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;shadow=1;edgeStyle=orthogonalEdgeStyle;align=left;" target="5wXfZpld3S_inRG9jpBt-2" value="4.Validación en base de datos&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(SQLite).&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;5. El sistema el inicio de sesión&amp;nbsp;&lt;/div&gt;&lt;div&gt;con fecha y hora&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" x="0.2202" as="geometry">
+            <mxPoint y="1" as="offset" />
+            <Array as="points">
+              <mxPoint x="133" y="220" />
+              <mxPoint x="133" y="350" />
+            </Array>
+            <mxPoint x="80" y="210" as="sourcePoint" />
+            <mxPoint x="210" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5wXfZpld3S_inRG9jpBt-17" parent="5wXfZpld3S_inRG9jpBt-2" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;targetShapes=umlLifeline;shadow=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="35" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="5wXfZpld3S_inRG9jpBt-5" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;shadow=1;" value="1. El Usuario accede a la pantalla de inicio de sesión.">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="39.07142857142867" y="100" as="sourcePoint" />
+            <mxPoint x="499.5000000000002" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5wXfZpld3S_inRG9jpBt-10" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;shadow=1;" value="2. Interfaz Login/Verificación">
+          <mxGeometry relative="1" x="0.001" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="499.5000000000002" y="140" as="sourcePoint" />
+            <mxPoint x="39.07142857142867" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5wXfZpld3S_inRG9jpBt-11" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;shadow=1;" value="3. El usuario ingresa usuario y contraseña.">
+          <mxGeometry relative="1" width="80" x="0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="43.5" y="190" as="sourcePoint" />
+            <mxPoint x="503.5" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5wXfZpld3S_inRG9jpBt-20" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;shadow=1;" value="DS-001" vertex="1">
+          <mxGeometry height="520" width="810" x="-50" y="-40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
